@@ -1,0 +1,112 @@
+body{
+background-color:#000000; margin:0; padding:0;  
+}
+#principal{
+width:1200px;height:3680px; margin-left:auto; margin-right:auto; margin-bottom:10px;     	
+}
+#cabeçalho{
+ 	height:200px;     
+}
+.caixa1{ /*LOGO*/
+	width:220px; height:200px; float:left;    
+}
+#logo{
+	width:200px; height:200px;      
+} 
+.caixa2{ /*TÍTULO*/ 
+	width:580px; height:200px; float:left;    
+}
+h1{
+	font-family:arial black; font-size:2em; color:#ffffff; text-align:left; margin-top:2em;          
+}
+h1:hover{
+	font-size:45px; color:#00bfff;  
+}
+.caixa3{ /*ÁREA DOS LINKS, YOUTUBE, INSTAGRAN E FACEBOOK*/
+	width:400px; height:200px; float:left;    
+}
+#facebook{
+	width:50px; height:50px; float:left; margin-top:4em; margin-right:3em; margin-left:10px; 
+	border-radius:8px;      
+}
+#facebook:hover{
+    cursor:pointer; transition:1s; border-radius:50px;
+}
+#instagran{
+	width:50px; height:50px; float:left; margin-top:4em; margin-right:3em; border-radius:8px;  
+}
+#instagran:hover{
+    cursor:pointer; transition:0.9s; border-radius:20px;
+}
+#youtube{
+	width:65px; height:50px; float:left; margin-top:4em; border-radius:6px;  
+}
+#youtube:hover{
+    cursor:pointer; transition:0.9s; border-radius:20px;
+}
+#menu{
+	height:50px;     
+}
+#home{
+	font-family:Arial black; font-size:1em; color:#ffffff; float:left; margin-left:8em; text-decoration:none;       
+}
+#home:hover{
+	background-color:#00bfff;
+    /*permite trocar o tipo do cursor do mouse*/
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 5px;
+}     
+#conteúdo{
+	height:3430px; clear:both; background-color:#add8e6; border-radius:15px;     
+}
+#linha1{ /*linha do título principal*/
+	height:80px;  
+}
+.caixa4{
+	width:400px; height:80px; float:left;     
+}
+.caixa5{ /*caixa título time principal*/
+	width:800px; height:80px; float:left;     
+}
+.timeprincipal{
+	font-family:arial black; font-size:30px; color:#000000; margin-top:15px;       
+}
+#linha2{
+	height:50px;    
+}
+.caixa6{ /*goleiros título*/
+	width:400px; height:50px; float:left; background-color:#0000ff; border-radius:15px; margin-left:5px;        
+}
+.caixa6:hover{
+	border-radius:50px;  
+}
+#jogadores{
+	font-family:Franklin Gothic Medium; font-size:35px; color:#ffffff; text-align:center;
+	margin-top:8px;     
+}
+#jogadores:hover{
+	font-size:43px; 
+}
+#linha3{ /*goleiros imagens*/
+	height:450px; 
+}
+.caixa7{
+	width:335px; height:440px; float:left; margin-left:3em; margin-top:10px;   
+}
+#jogador{
+	width:320px; height:300px; border-radius:40px; margin-top:5px;     
+}
+#jogador{
+	max-width:100%; *moz-transition:all 0.3s; *webkit-transition:all 0.3s; transition:all 0.5s;   
+}
+#jogador:hover{
+	*moz-transition:scale(1.1); *webkit-transition:scale(1.1);transform:scale(1.15); 
+}
+#dados{
+	color:#000000; font-family:arial; font-size:23px; float:left;     
+}
+#número{
+	color:#000000; float:right; font-family:arial black; font-size:35px; margin-right:20px;
+	margin-top:20px;       
+}

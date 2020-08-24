@@ -1,0 +1,98 @@
+body{
+background-color:#000000; margin:0; padding:0;  
+}
+#principal{
+width:1200px; height:1250px; margin-left:auto; margin-right:auto; margin-bottom:10px;     	
+}
+#cabeçalho{
+	height:200px;     
+}
+.caixa1{ /*LOGO*/
+	width:220px; height:200px; float:left;    
+}
+#logo{
+	width:200px; height:200px;       
+} 
+.caixa2{ /*TÍTULO*/ 
+	width:580px; height:200px; float:left;    
+}
+h1{
+	font-family:arial black; font-size:2em; color:#ffffff; text-align:left; margin-top:2em;          
+}
+h1:hover{
+	font-size:45px; color:#00bfff;  
+}
+.caixa3{ /*ÁREA DOS LINKS, YOUTUBE, INSTAGRAN E FACEBOOK*/
+	width:400px; height:200px; float:left;    
+}
+#facebook{
+	width:50px; height:50px; float:left; margin-top:4em; margin-right:3em; margin-left:10px; 
+	border-radius:8px;      
+}
+#facebook:hover{
+    cursor:pointer; transition:1s; border-radius:50px;
+}
+#instagran{
+	width:50px; height:50px; float:left; margin-top:4em; margin-right:3em; border-radius:8px;  
+}
+#instagran:hover{
+    cursor:pointer; transition:0.9s; border-radius:20px;
+}
+#youtube{
+	width:65px; height:50px; float:left; margin-top:4em; border-radius:6px;  
+}
+#youtube:hover{
+    cursor:pointer; transition:0.9s; border-radius:20px;
+}
+#menu{
+	height:50px;       
+}
+#home{
+	font-family:Arial black; font-size:1em; color:#ffffff; float:left; margin-left:8em; text-decoration:none;      
+}
+#home:hover{
+	background-color:#00bfff;
+    /*permite trocar o tipo do cursor do mouse*/
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 5px;
+}
+#conteúdo{
+	height:1000px; background-color:#ffffff; clear:both; border-radius:15px;    
+}
+#linha1{
+	height:70px;  
+}
+.caixa{
+	float:left; width:1100px; height:70px;    
+}
+#história{
+	font-size:28px; text-align:center; margin-top:20px; font-family:arial black;          
+}
+#coluna1{
+	width:740px; height:930px; float:left; margin-left:5px;     
+}
+#texto{
+	font-family:verdana; margin-left:5px; margin-right:5px; font-size:18px;    
+}
+#caputera{
+	width:700px; height:450px; margin-left:15px; border-radius:20px;        
+}
+#caputera{
+	max-width:100%; *moz-transition:all 0.3s; *webkit-transition:all 0.3s; transition:all 0.5s;   
+}
+#caputera:hover{
+	*moz-transition:scale(1.1); *webkit-transition:scale(1.1);transform:scale(1.1);
+}
+#coluna2{
+	width:440px; height:930px; float:left;     
+}
+#clube{
+	width:440px; height:250px; border-radius:20px; margin-top:20px;    
+}
+#clube{
+	max-width:100%; *moz-transition:all 0.3s; *webkit-transition:all 0.3s; transition:all 0.5s;   
+}
+#clube:hover{
+	*moz-transition:scale(1.1); *webkit-transition:scale(1.1);transform:scale(1.1);
+}

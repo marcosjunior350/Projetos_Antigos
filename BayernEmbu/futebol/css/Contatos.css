@@ -1,0 +1,84 @@
+body{
+background-color:#000000; margin:0; padding:0;  
+}
+#principal{
+width:1200px; height:1250px; margin-left:auto; margin-right:auto; margin-bottom:10px;     	
+}
+#cabeçalho{
+	height:200px;     
+}
+.caixa1{ /*LOGO*/
+	width:220px; height:200px; float:left;    
+}
+#logo{
+	width:200px; height:200px;       
+} 
+.caixa2{ /*TÍTULO*/ 
+	width:580px; height:200px; float:left;    
+}
+h1{
+	font-family:arial black; font-size:2em; color:#ffffff; text-align:left; margin-top:2em;          
+}
+h1:hover{
+	font-size:45px; color:#00bfff;  
+}
+.caixa3{ /*ÁREA DOS LINKS, YOUTUBE, INSTAGRAN E FACEBOOK*/
+	width:400px; height:200px; float:left;    
+}
+#facebook{
+	width:50px; height:50px; float:left; margin-top:4em; margin-right:3em; margin-left:10px; 
+	border-radius:8px;      
+}
+#facebook:hover{
+    cursor:pointer; transition:1s; border-radius:50px;
+}
+#instagran{
+	width:50px; height:50px; float:left; margin-top:4em; margin-right:3em; border-radius:8px;  
+}
+#instagran:hover{
+    cursor:pointer; transition:0.9s; border-radius:20px;
+}
+#youtube{
+	width:65px; height:50px; float:left; margin-top:4em; border-radius:6px;  
+}
+#youtube:hover{
+    cursor:pointer; transition:0.9s; border-radius:20px;
+}
+#menu{
+	height:50px;       
+}
+#home{
+	font-family:Arial black; font-size:1em; color:#ffffff; float:left; margin-left:8em; text-decoration:none;      
+}
+#home:hover{
+	background-color:#00bfff;
+    /*permite trocar o tipo do cursor do mouse*/
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 5px;
+}
+#conteúdo{
+	height:1000px; background-color:#ffffff; clear:both; border-radius:15px;    
+}
+#linha1{
+	height:400px; width:1100px; float:left;    
+}
+.título{
+	font-size:2em; font-family:arial black; margin-left:2em;
+}
+.texto{
+	font-family:verdana; font-size:22px; margin-left:1em;   
+}
+.link{
+	text-decoration:none; font-family:arial; color:#000000; font-size:25px; margin-left:1em;      
+}
+.link:hover{
+	font-size:2em; color:#0000ff;  
+}
+#linha2{
+	height:600px; width:1200px; float:left;    
+}
+.campo{
+	width:1200px; height:600px;     
+}
+
