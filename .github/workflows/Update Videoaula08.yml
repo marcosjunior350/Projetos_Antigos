@@ -1,57 +1,35 @@
-# Este é um fluxo de trabalho básico para ajudar você a começar com ações
+# This is a basic workflow to help you get started with Actions
 
-nome: CI
+name: CI
 
-# Controla quando o fluxo de trabalho será executado
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events on the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
-sobre:
- 
-# Aciona o fluxo de trabalho em eventos de solicitação push ou pull, mas apenas para o branch "principal"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
-empurrar:
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
 
-ramos: [ "principal" ]
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
 
-solicitação de pull:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
 
-ramos:[ "principal" ]
-
- # Permite que você execute este fluxo de trabalho manualmente na guia Ações
-
-fluxo de trabalho_despacho:
-
-# Uma execução de fluxo de trabalho é composta de um ou mais trabalhos que podem ser executados sequencialmente ou em paralelo
-
-empregos:
-
-# Este fluxo de trabalho contém um único trabalho chamado "build"
-
-construir :
-
-# O tipo de executor no qual o trabalho será executado
-
-executa em: ubuntu-latest
-
- # As etapas representam uma sequência de tarefas que serão executadas como parte do trabalho
-
-passos:
-
-# Faz check-out do seu repositório em $GITHUB_WORKSPACE, para que seu trabalho possa acessá-lo
-
-- usos: ações/checkout@v3
-
-# Executa um único comando usando o shell do runner
-
-- nome: Executa um script de uma linha
-
- executar: eco Olá, mundo!
-
-# Executa um conjunto de comandos usando o shell do runner
-
-- nome: Executa um script multi-linha
-
-correr: |
-
-echo Adicionar outras ações para construir,
-
-teste de eco e implante seu projeto.
+      # Runs a multi-line script using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
